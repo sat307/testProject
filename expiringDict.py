@@ -18,7 +18,7 @@ NOTE: iteration over dict and also keys() do not remove expired values!
 import time
 from threading import RLock
 import sys
-from typing import Any, Union
+#from typing import Any, Union
 
 try:
     from collections import OrderedDict
